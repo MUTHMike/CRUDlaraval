@@ -10,7 +10,7 @@
 @section('content')
 <section class="box">
     <header class="panel_header">
-        <h2 class="title pull-right">Admin | Dasboard</h2>
+        
     </header>
     <div class="content-body">
         @if(Auth::guest())
