@@ -7,7 +7,7 @@
 
 @stop
 
-<!--@section('content')
+@section('content')
 <section class="box">
     <header class="panel_header">
         <h2 class="title pull-right">Admin | Dasboard</h2>
@@ -20,7 +20,7 @@
         @endif
     </div>
 </section>
-@stop-->
+@stop
 
 @section('script')
 
