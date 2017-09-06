@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    echo 'mike';
+    public function index() {
+        echo 'test';
+}
 }
