@@ -4,7 +4,7 @@
 @stop
 
 @section('style')
-<link rel="stylesheet" href="" />
+
 @stop
 
 @section('content')
@@ -23,5 +23,5 @@
 @stop
 
 @section('script')
-<script src=""></script>
+
 @stop
