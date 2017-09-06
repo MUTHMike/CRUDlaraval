@@ -506,7 +506,7 @@
     </section>
     <!-- /.sidebar -->
   </aside>
-
+</div>
    <!--content-->
    @yield('content')
   <!-- /.content-wrapper -->
