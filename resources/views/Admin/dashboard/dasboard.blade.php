@@ -1,27 +1,27 @@
-@extends('admin');
-@section('title');
+@extends('admin')
+@section('title')
 <title>Dashborad</title>
-@stop;
+@stop
 
-@section('style');
+@section('style')
 <link rel="stylesheet" href="" />
-@stop;
+@stop
 
-@section('content');
+@section('content')
 <section class="box">
     <header class="panel_header">
         <h2 class="title pull-right">Admin | Dasboard</h2>
     </header>
     <div class="content-body">
-        @if(Auth:gest)
-        <p>Gest</p>
+        @if(Auth::guest())
+        <p>Guest</p>
         @else 
         <p>Login</p>
-        @else if
+        @endif
     </div>
 </section>
-@stop;
+@stop
 
-@section('script');
+@section('script')
 <script src=""></script>
-@stop;
+@stop
