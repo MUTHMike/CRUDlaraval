@@ -499,7 +499,7 @@
   </aside>
   
    <!--content-->
-   @yield('content')
+<!--   @yield('content')-->
   <!-- /.content-wrapper -->
 <footer class="main-footer">
     <div class="pull-right hidden-xs">
