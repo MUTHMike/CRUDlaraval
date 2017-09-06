@@ -506,12 +506,12 @@
     </section>
     <!-- /.sidebar -->
   </aside>
-</div>
+
    <!--content-->
    @yield('content')
   <!-- /.content-wrapper -->
 
-  
+</div>
 <!-- jQuery 3 -->
 <script src="{{ asset('assetsAdmin/bower_components/jquery/dist/jquery.min.js')}}"></script>
 <!-- jQuery UI 1.11.4 -->
