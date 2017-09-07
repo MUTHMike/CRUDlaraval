@@ -6,11 +6,18 @@ use Illuminate\Http\Request;
 use App\tbl_status;
 class StatusMainController extends Controller
 { 
+    private $status, $date, $author, $limit  = 1;
+    public function __construct(tbl_status $status){
+            $this->status = $status;
+            date_default_timezone_set ( 'Asia/Phnom_Penh' );
+            $this->date = date ( "Y-m-d H:i:s" );
+
+    }
 
     public function index()
     {
-       $data = $this->tbl_staus->all();
-       var_dump($data);exit;
+       $status = $this->status->orderBy('id', 'desc')->paginate($this->limit);
+       return view('admin/status/main/status', compact('status'));
     }
 
     /**

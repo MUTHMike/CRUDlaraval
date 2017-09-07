@@ -9,35 +9,29 @@
 @stop
 
 
-@section('containTitle')
-	<!-- <h1 class="title">Dashboad | Add Status</h1>  --> 
-@stop
 
-
-@section('contain')
-<section class="box ">
-<header class="panel_header">
-	<h2 class="title pull-left">Status | Show</h2>
-</header>	
-<div class="row " id="content-body">
-	<div class="col-xs-12">
-
-		<div class="col-xs-12">
-			<label>Id: {{ $status->status_id }}</label><br/>
-			<label>Title: {{ $status->status_title }}</label><br/>
-			<label>Description: {{ $status->status_description }}</label><br/>
-			<label>Status: {{ $status->status }}</label><br/>
-			<label>Author: {{ $status->status_author }}</label><br/>
-			<label>Created Date: {{ $status->created_at }}</label><br/>
-		</div>
-
-			<div class="modal-footer">
-			  <a href="{{ url('/main/status.html') }}" class="btn btn-danger" data-dismiss="modal">Back</a>
-			</div>
-	
-
-  <!-- END FORM ADD STATUS ROLE="MODAL" -->
-  <section/>
+@section('content')
+<div class="container">
+    <div class="row col-md-6 col-md-offset-2 custyle">
+    <table class="table table-striped custab">
+    <thead>
+    <a href="#" class="btn btn-primary btn-xs pull-right"><b>+</b> Add new categories</a>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Parent ID</th>
+            <th class="text-center">Action</th>
+        </tr>
+    </thead>
+            <tr>
+                <td>1</td>
+                <td>News</td>
+                <td>News Cate</td>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+            </tr>
+    </table>
+    </div>
+</div>
 @stop
 
 
