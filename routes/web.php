@@ -15,7 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/admin', 'DashboardController@index');
-Route::get('main/create_user','DashboardController@cre_use_form');
+Route::get('main/open_form','DashboardController@cre_use_form');
+Route::get('main/create_user','DashboardController@insert_user');
 //main status done Kimchhoin
 Route::get ( '/main/status',['uses' => 'StatusMainController@index'  ]);
 Route::get ( '/main/status/create.html', ['uses' => 'StatusMainController@create' ]);

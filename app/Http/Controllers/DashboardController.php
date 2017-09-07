@@ -15,4 +15,8 @@ class DashboardController extends Controller
     public function cre_use_form() {
         return view('Admin/user/create');
     }
+    //Insert user data in db
+    public function insert_user() {
+        die('mike');
+    }
 }

@@ -31,7 +31,7 @@
                       <h3 class="panel-title">View User<b></b></h3>
                   </div>
                   <div class="col col-xs-6 text-right">
-                      <a href="main/create_user"><button type="button" class="btn btn-sm btn-primary btn-create">Create New</button></a>
+                      <a href="main/open_form"><button type="button" class="btn btn-sm btn-primary btn-create">Create New</button></a>
                   </div>
                 </div>
               </div>

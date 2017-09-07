@@ -84,7 +84,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="signup"></label>
                         <div class="col-md-4">
-                            <button id="signup" name="signup" class="btn btn-success">Sign Up</button>
+                            <a href="main/create_user/'"><button id="signup" name="signup" class="btn btn-success">Sign Up</button></a>
                         </div>
                     </div>
 
